@@ -1,0 +1,17 @@
+{
+  "name": "jasmine_demo",
+  "version": "1.0.0",
+  "description": "Sample app for jasmine demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jasmine-node": "^3.0.0",
+    "jasmine-pretty-html-reporter": "^0.2.5",
+    "request": "^2.88.2"
+  }
+}
